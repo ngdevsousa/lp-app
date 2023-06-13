@@ -2,7 +2,7 @@
     <div class="container is-centered box mt-6 custom-form">
         <p class="title has-text-centered">Login</p>
 
-        <form @submit="onSubmit">
+        <form @submit.prevent="onSubmit">
             <div class="field">
                 <label class="label">Username</label>
                 <div class="control">
