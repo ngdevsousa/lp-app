@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest run"
   },
   "dependencies": {
     "axios": "^1.4.0",
@@ -17,10 +18,14 @@
     "vue-router": "^4.2.2"
   },
   "devDependencies": {
+    "@pinia/testing": "^0.1.2",
     "@types/lodash": "^4.14.195",
     "@vitejs/plugin-vue": "^4.1.0",
+    "@vue/test-utils": "^2.2.7",
+    "jsdom": "^22.1.0",
     "typescript": "^5.0.2",
     "vite": "^4.3.9",
+    "vitest": "^0.32.2",
     "vue-tsc": "^1.4.2"
   }
 }
